@@ -1422,6 +1422,14 @@ in {
           A new module is available: 'wayland.windowManager.river'.
         '';
       }
+
+      {
+        time = "2024-01-18T23:49:25+00:00";
+        message = ''
+          A new module is available: 'programs.mullvad-browser'.
+        '';
+      }
+
     ];
   };
 }
