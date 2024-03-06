@@ -635,6 +635,8 @@ in {
       its example for how to do this.
     '';
 
+    home.packages = [ cfg.package ];
+
     home.file = mkMerge ([{
       "${firefoxConfigPath}/profiles.ini" =
         mkIf (cfg.profiles != { }) { text = profilesIni; };
