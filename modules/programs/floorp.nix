@@ -13,11 +13,11 @@ in {
       visible = true;
 
       platforms.linux = rec {
-        vendorPath = ".mozilla";
-        configPath = "${vendorPath}/floorp";
+        vendorPath = ".floorp";
+        configPath = "${vendorPath}";
       };
       platforms.darwin = {
-        vendorPath = "Library/Application Support/Mozilla";
+        vendorPath = "Library/Application Support/Floorp";
         configPath = "Library/Application Support/Floorp";
       };
     })
